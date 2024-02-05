@@ -1,13 +1,36 @@
+@media (max-width: 1920px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 360px;
+    margin: 0 auto;
+  }
+}
 body {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 260; /* if you want the light version */
   background-color: #cfddf1;
   color: #4c5470;
   font-size: 16px;
   line-height:normal;
   text-align: center;
-  font-weight: 800px;
+  font-weight: 400;
   background-image: url("images/ZeldaTOTK_Wallpaper_1920x1080.jpg");
+  background-size: auto;
 }
 
 h1 {
@@ -21,10 +44,6 @@ h2{
   font-family: 'Roboto', sans-serif;
 }
 
-div{
-  width: 660px;
-  margin: 0 auto;
-}
 
 .card{
   margin:20px auto;
